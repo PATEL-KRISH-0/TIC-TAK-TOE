@@ -1,0 +1,83 @@
+:root {
+    --hover-Box-Color: rgb(188, 188, 255);
+    --boder-colour: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.main-Game {
+    margin-top: 4rem;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    border: 2px solid var(--boder-colour);
+    aspect-ratio: 1/1;
+    font-size: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover {
+    background-color: var(--hover-Box-Color);
+}
+
+.reset {
+    cursor: pointer;
+    padding: 1rem 1rem;
+    background-color: aquamarine;
+    margin: 2rem 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid var(--boder-colour);
+
+    transition: all 0.4s;
+}
+
+.reset:hover {
+    background-color: #76beff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 45%;
+    }
+}

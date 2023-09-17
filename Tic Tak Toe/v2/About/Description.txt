@@ -1,0 +1,11 @@
+	hellow!,
+
+	If you are looking for a beginner-friendly project to practice your HTML, CSS, and JavaScript skills, a Tic Tac Toe game is an excellent choice. It's a classic game that many people are familiar with, so it's a great way to get started with building interactive applications.
+
+	To build a Tic Tac Toe game, you'll need to create a basic game board using HTML and CSS. You can use CSS to style the game board and make it look more appealing. You'll also need to write JavaScript code to handle the game logic, such as checking for a winner, marking the board with X's and O's, and determining whose turn it is.
+
+	When building a Tic Tac Toe game, it's important to break down the problem into smaller parts and tackle each part separately. For example, you can start by creating a basic game board with static X's and O's, and then add interactivity using JavaScript. You can also add features like a reset button, score tracking, and different game modes (e.g. player vs. computer).
+
+	One important concept to keep in mind when building a Tic Tac Toe game (and any interactive application) is event handling. You'll need to listen for user input (e.g. mouse clicks) and respond to those events by updating the game state and re-rendering the game board. You can use event listeners and callbacks in JavaScript to handle these events.
+
+Overall, building a Tic Tac Toe game is a fun and rewarding way to practice your HTML, CSS, and JavaScript skills. It's a great project for beginners, but it can also be customized and extended for more advanced developers.
